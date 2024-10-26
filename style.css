@@ -1,13 +1,117 @@
+.logo {
+    background-color: rgb(244, 212, 148);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gambar-logo {
+    height: 500px;
+    width: 600px;
+}
+
 table {
     border-collapse: collapse;
-    font-size: 30px;
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 th, td {
-    border: 2px solid red;
+    border: 2px solid black;
     text-align: center;
 }
 
 th{
-    background-color: blue;
+    background-color: rgb(244, 212, 148);
+}
+
+.katalog {
+    background-color: rgb(244, 212, 148);
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.gambar1 {
+    width: 50%;
+    height: 50%;
+}
+
+.katalog2 {
+    background-color: rgb(244, 212, 148);
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+}
+.gambar2 {
+    width: 50%;
+    height: 50%;
+}
+
+.katalog3 {
+    background-color: rgb(244, 212, 148);
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+.gambar3 {
+    width: 50%;
+    height: 50%;
+}
+
+.katalog4 {
+    background-color: rgb(244, 212, 148);
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+}
+.gambar4 {
+    width: 50%;
+    height: 50%;
+}
+
+.katalog5 {
+    background-color: rgb(244, 212, 148);
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+.gambar5 {
+    width: 50%;
+    height: 50%;
+}
+
+.cabang {
+    display: flex;
+    margin-bottom: 40px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+   height: 780px;
+   background-color: rgb(244, 212, 148);
+   flex-direction: row-reverse;
+   justify-content: center;
+   align-items: center;
+}
+h2 {
+    text-align: center;
 }
